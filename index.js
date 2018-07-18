@@ -2,8 +2,8 @@
 let driverId = 0;
 class Driver {
   constructor(name) {
-    this.id = ++itemId;
-    this.driverId = driverId;
+    this.id = ++driverId;
+    this.name = name;
   }
 }
 
