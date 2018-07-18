@@ -14,7 +14,7 @@ class Driver {
     })
   }
   passengers() {
-    trips();
+    return trips();
   }
 }
 
