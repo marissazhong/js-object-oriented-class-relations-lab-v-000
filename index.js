@@ -14,7 +14,7 @@ class Driver {
     })
   }
   passengers() {
-    return trips();
+    return this.trips();
   }
 }
 
