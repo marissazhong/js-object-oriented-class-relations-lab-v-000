@@ -1,4 +1,6 @@
 
+
+
 let tripId = 0;
 class Trip {
   constructor(driver, passenger) {
