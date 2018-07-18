@@ -26,13 +26,8 @@ class Trip {
   constructor(driver, passenger) {
     this.id = ++tripId;
     this.driverId = driver.id;
-    if(passenger){
-      this.passengerId = passenger.id;
-    }
-    store.trips.push(this);
-  }
-  setPassenger(passenger) {
     this.passengerId = passenger.id;
+    store.trips.push(this);
   }
   passenger() {
     return store.passengers.find(function(passenger) {
