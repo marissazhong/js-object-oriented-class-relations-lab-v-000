@@ -14,7 +14,9 @@ class Driver {
     })
   }
   passengers() {
-    return this.trips();
+    return store.passengers.filter(passenger => {
+      return this.trips();
+    })
   }
 }
 
